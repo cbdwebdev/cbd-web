@@ -17,7 +17,11 @@ body {
   font-family: roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #4c4c4c
+  color: #4c4c4c;
+}
+
+:root {
+  background-color: #333;
 }
 
 p {
