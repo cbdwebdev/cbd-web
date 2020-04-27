@@ -19,21 +19,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-        with:
-          submodules: true
-          
-      - uses: jakejarvis/hugo-build-action@master
-        with:
-          args: --minify --buildDrafts
-      - uses: actions/upload-artifact@master
-        with:
-          name: website
-          path: './public'
-
+        
       - name: Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: 0.69.0
+          HUGO_VERSION: 0.69.2
           TARGET_REPO: cbdwebdev/cbdwebdev.github.io
           TOKEN: ${{ secrets.TOKEN }}
           CNAME: cbdwebdev.github.io
