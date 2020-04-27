@@ -1,0 +1,32 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy Website
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    # Runs a set of commands using the runners shell
+    - name: Deploy Hugo Site
+      uses: jsumners/gh-action-hugo-deploy@v1.0.0
+      with:
+        # The repository the build output will be committed to
+        destination_repo: cbdwebdev.github.io
+        # A GitHub API token with read and commit access to the destination repo
+        destination_token: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH3s/vycdweXUz/aHZjIXqurL0MQRosRkxQ6NsljEiDLGi8dQOQIVf5m+1TBUEuc/bP8cWd0TenWws28u6C8a2GsmUdOhSP/6vnoHuS97UBj/QDhTxauasky+E5IbZTKA7dKpCFxe9HLZ6TmRpl52oiWywpXPjH5QKQUdtG1bCX70PzGJTrIKJBS8noh41Dy23SNwTYS4HXOG1mPsHMnNoPVoNRkgk5aRorkH6aHlRfRo1/w5n3wnc3DEI8xSRd/ltdrMrmD+0a8TIDgHNubV/kiEU2/KqxOwdYZJVpnF6NfzK98e4UgCfxVzJlVGupTE3pvVcWEEHOOoayQkzq1PC8sgf3I9w7RBDq4D0zulx70JpXGhmR1y1C/1p4s/WSQwWIQNfkAGyVZdkwuRPIMt0I1qh4ZH4473Gq+JbjTazBVaAb2AhXApaLM/dBIDPOAbJVvX98rr/It2QKR04JKIS2/Sn7hQRh1ZWqiZPjbxxX1x84pqVYr7R33HzxRzcW8ymvJiZofjs9rt/fIpNqEDeuxQk4NnyD6632x1wruL87Sep43wvUXpj7qKr1CsWpHBoI+5w8a8xR7zhxapFs0l7S7+FoafKtXR69WDV4IJ7QqKWXSMEEhan+3y6p797iQ7DaeLUsTnWB00AIqHoI/61qx8zWU4C4bA0ymjEGzp6rQ==
