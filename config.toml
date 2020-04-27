@@ -28,7 +28,7 @@ email = "steve.fruits@email.com"
 google_analitycs_id = "Your ID"
 home = "Home"
 logo = "images/logo.png"
-phone = "+880 2544 658 256"
+phone = "(781) 267-7624"
 theme_color = "#65d132"
 [params.contact]
 enable = true
