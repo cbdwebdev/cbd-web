@@ -8,14 +8,16 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: file
-  name: image
-  label: image
 - type: text
   name: description
   label: description
-- name: post_gallery
+- name: images
   type: image_gallery
   config: {}
-  label: Post Gallery
-  description: List of images used when creating a image gallery on a post
+  label: images
+  description: Images associated with post
+- type: file
+  name: image
+  label: image
+  description: PHASE THIS OUT so that when images is of length one it looks nice,
+    but if it is longer the slider is there
