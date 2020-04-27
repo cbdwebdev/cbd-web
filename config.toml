@@ -10,28 +10,28 @@ weight = 2
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 3
+weight = 4
 [[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
-weight = 4
+weight = 3
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 5
 [params]
-address = "4 Keith Way, Suite 3"
-author = "Tyler Lawson"
+address = "4 Keith Way, Suite 3 <br> Hingham, MA, 02043"
+author = "Jeffrey Lawson"
 copyright = "Copyrighht &copy; 2020 CBD Companies"
 description = "Commercial Construction and Office Furniture"
 email = "steve.fruits@email.com"
 google_analitycs_id = "Your ID"
 home = "Home"
-logo = "images/logo.png"
-phone = "(781) 267-7624"
+logo = "images/logo-white.svg"
+phone = "781-267-7624"
 theme_color = "#65d132"
 [params.contact]
-enable = true
+enable = false
 form_action = "#"
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
@@ -39,6 +39,8 @@ URL = "plugins/bootstrap/bootstrap.min.css"
 URL = "plugins/slick/slick.css"
 [[params.plugins.css]]
 URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/flaticon/flaticon.css"
 [[params.plugins.js]]
 URL = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]

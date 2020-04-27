@@ -1,16 +1,16 @@
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Welcome to<br> Creative Business <br> Design"
 
 about:
   enable : true
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
   button:
     enable : true
-    label : "know more"
+    label : "learn more"
     URL : "about"
 
 skill:
-  enable : true
+  enable : false
   title : "Skills"
   item:
     - title : "Web Design"
@@ -30,7 +30,7 @@ skill:
       color : "#ffbcaa"
 
 experience:
-  enable : true
+  enable : false
   title : "Experience"
   item:
     - logo : "images/experience/icon-1.png"
@@ -50,7 +50,7 @@ experience:
 
 # education
 education:
-  enable : true
+  enable : false
   title : "Education"
   item:
     - title : "Marters in UX Design"
@@ -74,47 +74,20 @@ service:
   enable : true
   title : "Services"
   item:
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    - title : "Used Furniture"
+      icon : "chair"
+      content : "We provide re-manufactured and refurbished Steelcase, Haworth, Knoll, Herman Miller, Allsteel and other office systems at a fraction of the cost of new products. We can use our network to find furniture that matches your needs."
       highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
+    - title : "New Furniture"
+      icon : "company"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
+    - title : "Construction"
+      icon : "spanner"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
-
-# portfolio
-portfolio:
-  enable : true
-  title : "Portfolio"
-  item_show : 5
-  # portfolio item comes from 'data/portfolio.yml' item.
-
-# testimonial
-testimonial:
-  enable : true
-  title : "Testimonials"
-  item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 # client logo slider
 clients_logo_slider:
@@ -149,6 +122,27 @@ clients_logo_slider:
 
     - logo : "images/clients-logo/client-logo-5.png"
       URL : "#"
+
+# portfolio
+portfolio:
+  enable : true
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : true
+  title : "Testimonials"
+  item:
+    - name : "Hilco Global"
+      content : "I’ve worked with Jeff Lawson of CBD Interiors on a few projects over the years from doing additional buildouts in our office to purchasing office furniture. Jeff’s communication throughout the entire process was excellent, not only with me, but also our vendors and the new landlord. If I had any questions or concerns, he always got back to me."
+
+    - name : "Providence Water"
+      content : "Jeff Lawson and his staff made every effort to meet our schedule constraints and offered Providence Water many options for cost savings with furniture that they have in stock."
+
+    - name : "Getfused Inc."
+      content : "Jeff built on our ideas and went above and beyond our expectations to create something amazing."
 
 # blog
 blog:
