@@ -14,8 +14,3 @@ fields:
 - type: text
   name: description
   label: description
-- name: post_gallery
-  type: image_gallery
-  config: {}
-  label: Post Gallery
-  description: List of images used when creating a image gallery on a post
