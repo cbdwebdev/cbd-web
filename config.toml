@@ -9,16 +9,12 @@ name = "About"
 weight = 2
 [[menu.main]]
 URL = "blog"
-name = "Blog"
-weight = 4
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
+name = "Our Work"
 weight = 3
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 5
+weight = 4
 [params]
 address = "4 Keith Way, Suite 3 <br> Hingham, MA, 02043"
 author = "Jeffrey Lawson"
