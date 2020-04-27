@@ -35,5 +35,5 @@ jobs:
         env:
           HUGO_VERSION: 0.69.0
           TARGET_REPO: cbdwebdev/cbdwebdev.github.io
-          TOKEN: ${{ secrets.Deploy_Token }}
+          TOKEN: ${{ secrets.DEPLOY_KEY }}
           CNAME: cbdwebdev.github.io
