@@ -26,6 +26,7 @@ home = "Home"
 logo = "images/logo-white.svg"
 phone = "781-267-7624"
 theme_color = "#65d132"
+show_social = false
 [params.contact]
 enable = false
 form_action = "#"
@@ -46,7 +47,7 @@ URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = ""
 [[params.social]]
 URL = "#"

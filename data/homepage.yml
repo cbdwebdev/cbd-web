@@ -74,8 +74,8 @@ service:
   enable : true
   title : "Services"
   item:
-    - title : "Used Furniture"
-      icon : "chair"
+    - title : "Construction"
+      icon : "spanner"
       content : "We provide re-manufactured and refurbished Steelcase, Haworth, Knoll, Herman Miller, Allsteel and other office systems at a fraction of the cost of new products. We can use our network to find furniture that matches your needs."
       highlighted : false
 
@@ -84,8 +84,8 @@ service:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : true
 
-    - title : "Construction"
-      icon : "spanner"
+    - title : "Used Furniture"
+      icon : "chair"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
@@ -136,7 +136,7 @@ testimonial:
   title : "Testimonials"
   item:
     - name : "Hilco Global"
-      content : "I’ve worked with Jeff Lawson of CBD Interiors on a few projects over the years from doing additional buildouts in our office to purchasing office furniture. Jeff’s communication throughout the entire process was excellent, not only with me, but also our vendors and the new landlord. If I had any questions or concerns, he always got back to me."
+      content : "I've worked with Jeff Lawson of CBD Interiors on a few projects over the years from doing additional buildouts in our office to purchasing office furniture. Jeff's communication throughout the entire process was excellent, not only with me, but also our vendors and the new landlord. If I had any questions or concerns, he always got back to me."
 
     - name : "Providence Water"
       content : "Jeff Lawson and his staff made every effort to meet our schedule constraints and offered Providence Water many options for cost savings with furniture that they have in stock."
