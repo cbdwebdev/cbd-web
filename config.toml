@@ -35,6 +35,8 @@ form_action = "#"
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
+URL = "plugins/flexslider/flexslider.css"
+[[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 [[params.plugins.css]]
 URL = "plugins/themify-icons/themify-icons.css"
@@ -48,6 +50,8 @@ URL = "plugins/bootstrap/bootstrap.min.js"
 URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+URL = "plugins/flexslider/jquery.flexslider.js"
 [params.preloader]
 enable = false
 preloader = ""
