@@ -918,3 +918,8 @@ footer .border-top {
   margin-top: 135px;
   width: 100%;
 }
+
+.contact.section p {
+  font-size: 16px;
+  font-weight: 400;
+}

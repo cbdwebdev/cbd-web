@@ -26,6 +26,7 @@ home = "Home"
 logo = "images/logo-white.svg"
 hero = "images/hero.jpg"
 phone = "781-267-7624"
+fax = "617-391-2881"
 theme_color = "#65d132"
 show_social = false
 [params.contact]

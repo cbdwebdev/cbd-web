@@ -2,4 +2,30 @@
 
   {{ partial "page-title.html" . }}
 
+    <section class="section contact">
+    <div class="container">
+      <div class="row">
+      	<div class="col">
+      		<p class="text-tertiary">{{.Content}}</p>
+      	</div>
+        <div class="col mx-auto text-center">
+          <p class="text-tertiary">
+          	Email: 
+	          	<a href="mailto:{{.Site.Params.email}}">
+	          		{{.Site.Params.email}}
+		        </a>	
+	      </p>
+	      <p class="text-tertiary">
+          	Phone: 
+	          	<a href="tel:+1{{.Site.Params.phone}}">
+	          		{{.Site.Params.phone}}
+	          	</a>
+	      </p>
+	      <p class="text-tertiary">Fax: {{.Site.Params.fax}}</p>
+	      <p class="text-tertiary">Address: <br>{{.Site.Params.address | safeHTML}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 {{ end }}
