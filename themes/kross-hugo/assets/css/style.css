@@ -221,8 +221,8 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px
+  padding-top: 60px;
+  padding-bottom: 60px
 }
 
 .section-title {
@@ -698,10 +698,6 @@ textarea.form-control {
   bottom: -50px
 }
 
-.footer-section {
-  padding-top: 200px
-}
-
 .section-on-footer {
   margin-bottom: -250px
 }
@@ -886,4 +882,21 @@ blockquote {
 
 .card-body h4 {
   margin-top: 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.8);
+  border-color: rgba(255,255,255,.5);
+}
+
+footer .text-white {
+  font-size: 17px;
+}
+
+footer .section {
+  padding: 40px 0;
+}
+
+footer .border-top {
+  padding: 15px 0!important;
 }

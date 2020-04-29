@@ -38,16 +38,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.email}}</p>
+          <h4 class="text-light">Email</h4>
+          <a href="mailto:{{.Site.Params.email}}">
+            <p class="text-white font-secondary">{{.Site.Params.email}}</p> 
+          </a>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <a class="text-white paragraph-lg font-secondary" href="tel:+1{{.Site.Params.phone}}">{{.Site.Params.phone}}</a>
+          <h4 class="text-light">Phone</h4>
+          <a class="text-white font-secondary" href="tel:+1{{.Site.Params.phone}}"><p class="text-white font-secondary">{{.Site.Params.phone}}</p></a>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{.Site.Params.address | safeHTML}}</p>
+          <h4 class="text-light">Address</h4>
+          <p class="text-white font-secondary">{{.Site.Params.address | safeHTML}}</p>
         </div>
       </div>
     </div>
