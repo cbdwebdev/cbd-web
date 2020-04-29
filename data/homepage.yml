@@ -145,7 +145,7 @@ testimonial:
       content : "Jeff built on our ideas and went above and beyond our expectations to create something amazing."
 
 # blog
-blog:
+ourwork:
   enable : true
-  title : "Blogs"
-  # blog post comes from "content/blog" folder
+  title : "Our Work"
+  # blog post comes from "content/ourwork" folder

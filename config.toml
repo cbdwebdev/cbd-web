@@ -8,7 +8,7 @@ URL = "about"
 name = "About"
 weight = 2
 [[menu.main]]
-URL = "blog"
+URL = "ourwork"
 name = "Our Work"
 weight = 3
 [[menu.main]]

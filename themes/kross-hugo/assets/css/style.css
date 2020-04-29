@@ -900,3 +900,11 @@ footer .section {
 footer .border-top {
   padding: 15px 0!important;
 }
+
+.shadow {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)!important;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.2)!important;
+}
