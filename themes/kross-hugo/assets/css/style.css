@@ -422,6 +422,7 @@ textarea.form-control {
 }
 
 .navigation {
+  background-color: var(--primary-color);
   padding: 15px 130px;
   transition: .3s ease
 }
@@ -459,7 +460,6 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 250px 0 200px;
   position: relative
 }
 
@@ -751,7 +751,7 @@ blockquote {
 }
 
 .page-title-alt {
-  padding: 350px 0 70px
+  padding: 150px 0 50px
 }
 
 .border-thick {
@@ -812,7 +812,7 @@ blockquote {
 }
 
 .page-title {
-  padding: 250px 0 150px
+  padding: 150px 0 50px
 }
 
 .page-title .container {
@@ -907,4 +907,9 @@ footer .border-top {
 
 .hover-shadow:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,.2)!important;
+}
+
+.hero-area img {
+  margin-top: 135px;
+  width: 100%;
 }

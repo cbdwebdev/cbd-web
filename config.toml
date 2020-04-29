@@ -24,6 +24,7 @@ email = "sales@cbdinteriors.net"
 google_analitycs_id = "Your ID"
 home = "Home"
 logo = "images/logo-white.svg"
+hero = "images/hero.jpg"
 phone = "781-267-7624"
 theme_color = "#65d132"
 show_social = false
