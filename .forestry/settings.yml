@@ -10,11 +10,6 @@ sections:
   create: none
   match: "*"
 - type: directory
-  path: content/portfolio
-  label: Portfolio
-  create: none
-  match: "*"
-- type: directory
   path: content/ourwork
   label: Post
   create: documents
