@@ -1,5 +1,5 @@
 ---
-title: Amazon increase income 1.5 Million
+title: Test Post
 date: 2019-05-12T06:14:34.000+00:00
 image: images/blog/post-5.jpg
 description: This is meta description.
