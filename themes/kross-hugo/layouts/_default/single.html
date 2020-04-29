@@ -7,13 +7,13 @@
           <h2 class="font-tertiary">{{.Title}}</h2>
           <p class="font-secondary">Published on {{ .PublishDate.Format "Jan 02, 2006" }}</span></p>
           {{ if eq (len .Params.Images) 1 }}
-          <img src="{{(index .Params.Images 0).image | absURL }}" alt="post-thumb" class="img-fluid d-block mx-auto rounded mb-4 post-image">
+          <img src="{{(index .Params.Images 0) | absURL }}" alt="post-thumb" class="img-fluid d-block mx-auto rounded mb-4 post-image">
           {{else}}
           <div class="flexslider mx-auto">
             <ul class="slides">
               {{ range .Params.Images }}
               <li>
-                <img src="{{.image | absURL}}" />
+                <img src="{{. | absURL}}" />
               </li>
               {{ end }}
             </ul>
