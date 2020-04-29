@@ -16,8 +16,3 @@ fields:
   config: {}
   label: images
   description: Images associated with post
-- type: file
-  name: image
-  label: image
-  description: PHASE THIS OUT so that when images is of length one it looks nice,
-    but if it is longer the slider is there
