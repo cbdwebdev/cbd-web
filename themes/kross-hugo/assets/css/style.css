@@ -937,3 +937,11 @@ footer .border-top {
   object-fit: cover;
   object-position: 25% 0;
 }
+
+.flexslider {
+  max-width: 600px;
+}
+
+.post-image {
+  min-width: 600px;
+}

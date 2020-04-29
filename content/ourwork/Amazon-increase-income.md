@@ -1,11 +1,10 @@
 ---
 title: Test Post
 date: 2019-05-12T06:14:34.000+00:00
-image: images/blog/post-5.jpg
 description: This is meta description.
 images:
-- "/images/blog/post-4.jpg"
-- "/images/blog/post-5.jpg"
+- image: "/images/blog/post-5.jpg"
+- image: "/images/blog/post-4.jpg"
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore

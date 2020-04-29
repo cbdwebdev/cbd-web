@@ -50,8 +50,6 @@ URL = "plugins/bootstrap/bootstrap.min.js"
 URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-URL = "plugins/flexslider/jquery.flexslider.js"
 [params.preloader]
 enable = false
 preloader = ""

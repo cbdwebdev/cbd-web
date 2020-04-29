@@ -59,7 +59,6 @@
   </div>
 </footer>
 <!-- /footer -->
-
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>
@@ -75,4 +74,16 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
   ga('create', '{{ .Site.Params.google_analitycs_id }}', 'auto');
   ga('send', 'pageview');
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="{{ "plugins/flexslider/jquery.flexslider.js" | absURL }}"></script>
+
+<script type="text/javascript" charset="utf-8">
+  // Can also be used with $(document).ready()
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide"
+    });
+  });
 </script>
