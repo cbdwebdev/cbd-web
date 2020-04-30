@@ -1,136 +1,117 @@
+---
 banner:
-  title : "Welcome to<br> Creative Business <br> Design"
-
+  title: Welcome to<br> Creative Business <br> Design
 about:
-  enable : true
-  content : "The one-stop solution for all of your commercial construction and office furniture needs"
+  enable: true
+  content: The one-stop solution for all of your commercial construction and office
+    furniture needs
   button:
-    enable : false
-    label : "learn more"
-    URL : "about"
-
+    enable: false
+    label: learn more
+    URL: about
 skill:
-  enable : false
-  title : "Skills"
+  enable: false
+  title: Skills
   item:
-    - title : "Web Design"
-      progress : "90%"
-      color : "#fdb157"
-
-    - title : "Logo Design"
-      progress : "60%"
-      color : "#9473e6"
-
-    - title : "After Effects"
-      progress : "80%"
-      color : "#bdecf6"
-
-    - title : "Web App"
-      progress : "70%"
-      color : "#ffbcaa"
-
+  - title: Web Design
+    progress: 90%
+    color: "#fdb157"
+  - title: Logo Design
+    progress: 60%
+    color: "#9473e6"
+  - title: After Effects
+    progress: 80%
+    color: "#bdecf6"
+  - title: Web App
+    progress: 70%
+    color: "#ffbcaa"
 experience:
-  enable : false
-  title : "Experience"
+  enable: false
+  title: Experience
   item:
-    - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
-
-    - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
-
-    - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
-
-# education
+  - logo: images/experience/icon-1.png
+    title: Junior UX Designer
+    company: WEBEX
+    duration: Jan 2007 - Feb 2009
+  - logo: images/experience/icon-2.png
+    title: UX & UI Designer
+    company: AUGMEDIX
+    duration: Mar 2009 - Aug 2014
+  - logo: images/experience/icon-1.png
+    title: Senior UI Designer
+    company: THEMEFISHER
+    duration: Sep 2014 - Present
 education:
-  enable : false
-  title : "Education"
+  enable: false
+  title: Education
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
-
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
-
-# service
+  - title: Marters in UX Design
+    year: "2006"
+    academy: Masassusets Institute of Technology
+  - title: Honours in Fine Arts
+    year: "2004"
+    academy: Harvard University
+  - title: Higher Secondary Certificat
+    year: "2000"
+    academy: Cardiff School
+  - title: Secondary School Certificate
+    year: "1998"
+    academy: Cardiff School
 service:
-  enable : true
-  title : "Services"
+  enable: true
+  title: Services
   item:
-    - title : "Construction"
-      icon : "spanner"
-      content : "We provide re-manufactured and refurbished Steelcase, Haworth, Knoll, Herman Miller, Allsteel and other office systems at a fraction of the cost of new products. We can use our network to find furniture that matches your needs."
-      highlighted : false
-
-    - title : "New Furniture"
-      icon : "company"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : true
-
-    - title : "Used Furniture"
-      icon : "chair"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
-
-# client logo slider
+  - title: Construction
+    icon: spanner
+    content: We provide re-manufactured and refurbished Steelcase, Haworth, Knoll,
+      Herman Miller, Allsteel and other office systems at a fraction of the cost of
+      new products. We use our network of suppliers to find furniture that matches
+      your specific needs.
+    highlighted: false
+  - title: New Furniture
+    icon: company
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    highlighted: true
+  - title: Used Furniture
+    icon: chair
+    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    highlighted: false
 clients_logo_slider:
-  enable : true
+  enable: true
   item:
-    - logo : "images/man-logo/ais.png"
-      URL : "https://www.ais-inc.com/"
-
-    - logo : "images/man-logo/coe.png"
-      URL : "https://www.coedistributing.com/"
-
-    - logo : "images/man-logo/openplan.png"
-      URL : "https://www.openplan.com/"
-
-    - logo : "images/man-logo/friant.png"
-      URL : "https://www.friant.com/"
-
-    - logo : "images/man-logo/nxtwall.png"
-      URL : "http://www.nxtwall.com/"
-
-# portfolio
+  - logo: images/man-logo/ais.png
+    URL: https://www.ais-inc.com/
+  - logo: images/man-logo/coe.png
+    URL: https://www.coedistributing.com/
+  - logo: images/man-logo/openplan.png
+    URL: https://www.openplan.com/
+  - logo: images/man-logo/friant.png
+    URL: https://www.friant.com/
+  - logo: images/man-logo/nxtwall.png
+    URL: http://www.nxtwall.com/
 portfolio:
-  enable : false
-  title : "Portfolio"
-  item_show : 5
-  # portfolio item comes from 'data/portfolio.yml' item.
-
-# testimonial
+  enable: false
+  title: Portfolio
+  item_show: "5"
 testimonial:
-  enable : true
-  title : "Testimonials"
+  enable: true
+  title: Testimonials
   item:
-    - name : "Hilco Global"
-      content : "I've worked with Jeff Lawson of CBD Interiors on a few projects over the years from doing additional buildouts in our office to purchasing office furniture. Jeff's communication throughout the entire process was excellent, not only with me, but also our vendors and the new landlord. If I had any questions or concerns, he always got back to me."
-
-    - name : "Providence Water"
-      content : "Jeff Lawson and his staff made every effort to meet our schedule constraints and offered Providence Water many options for cost savings with furniture that they have in stock."
-
-    - name : "Getfused Inc."
-      content : "Jeff built on our ideas and went above and beyond our expectations to create something amazing."
-
-# blog
+  - name: Hilco Global
+    content: I've worked with Jeff Lawson of CBD Interiors on a few projects over
+      the years from doing additional buildouts in our office to purchasing office
+      furniture. Jeff's communication throughout the entire process was excellent,
+      not only with me, but also our vendors and the new landlord. If I had any questions
+      or concerns, he always got back to me.
+  - name: Providence Water
+    content: Jeff Lawson and his staff made every effort to meet our schedule constraints
+      and offered Providence Water many options for cost savings with furniture that
+      they have in stock.
+  - name: Getfused Inc.
+    content: Jeff built on our ideas and went above and beyond our expectations to
+      create something amazing.
 ourwork:
-  enable : true
-  title : "Our Work"
-  # blog post comes from "content/ourwork" folder
+  enable: true
+  title: Our Work
