@@ -971,18 +971,18 @@ footer .border-top {
   overflow: hidden;
 }
 
-.card-body {
+.ourwork .card-body {
   height: 250px;
 }
 
 @media(max-width:575px) {
-  .card-img-wrap {
+  .ourwork .card-img-wrap {
     height: 350px;
   }
 }
 
 @media(max-width:767px) {
-  .card-img-wrap {
+  .ourwork .card-img-wrap {
     height: 350px;
   }
 }
