@@ -25,9 +25,9 @@ body {
 }
 
 p {
-  font-weight: 400;
+  font-weight: 500;
   color: #4c4c4c;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   font-family: roboto, sans-serif
 }
@@ -952,4 +952,9 @@ footer .border-top {
 
 .btn-transparent:hover {
   color: #94df70;
+}
+
+.col-12 ul {
+  list-style-type: initial;
+  margin-bottom: 1rem;
 }

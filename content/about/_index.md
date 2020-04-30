@@ -1,13 +1,17 @@
 ---
 title: About
 date: 2019-05-12T06:14:34.000+00:00
-description: This is meta description.
+description: About us page
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+For over 20 years our clients have relied on us for all their interior construction needs. Being a single-source interior contractor allows us to set the pace for your entire project.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+- Architectural & Glass Walls
+- Raised & Commercial Flooring
+- Tenant Fit-Ups
+- Office Remodeling 
+- Metal Studs and Drywall
+- Soundproofing
+- Acoustical and Metal Ceiling Systems
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
-
-Foo Bar Jiggly Puff
+CBD provides new furniture options in panel and desking stations, seating, case goods and filing needs. Visit our partners' websites to view available furniture. If you’re on a limited budget, our professional staff of installers and refurbishing experts can address all of your needs. We stock a wide variety of re-manufactured case goods, seating, and filing products.
