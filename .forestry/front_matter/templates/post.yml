@@ -18,4 +18,5 @@ fields:
   description: Images associated with post
 pages:
 - content/ourwork/city-of-boston.md
+- content/ourwork/glass-modular-wall-gallery.md
 - content/ourwork/ks-partners.md
