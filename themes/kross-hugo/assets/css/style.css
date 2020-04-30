@@ -221,13 +221,16 @@ a:hover {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px
+  padding: 40px 0;
 }
 
 .section-title {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   font-family: bwnistaint-xbd
+}
+
+.section.minus {
+  margin: -40px 0;
 }
 
 .bg-cover {
@@ -943,5 +946,8 @@ footer .border-top {
 }
 
 .post-image {
-  min-width: 600px;
+  width: 100%;
+  max-width: 600px;
 }
+
+

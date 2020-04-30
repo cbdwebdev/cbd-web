@@ -125,14 +125,14 @@
   {{ if .Site.Data.homepage.service.enable }}
   {{ with .Site.Data.homepage.service }}
   <!-- services -->
-  <section class="section">
+  <section class="section minus">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
           <h2 class="section-title">{{ .title | markdownify }}</h2>
         </div>
         {{ range .item }}
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4">
           <div class="card {{if .highlighted }} active-bg-primary {{end}}">
             <div class="card-body text-center px-4 py-5">
               <!-- for themify -->
