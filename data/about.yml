@@ -16,7 +16,7 @@ work_process:
 
 
 team:
-  enable: true
+  enable: false
   title : "My Team"
   team_member:
     - title : "Jack Schenziwe"
@@ -34,4 +34,19 @@ team:
 
 clients_logo_slider:
   enable : true
-  title : "My Clients"
+  title : "Our Partnering Manufacturers"
+  item:
+  - logo : "images/man-logo/ais.png"
+    URL : "https://www.ais-inc.com/"
+
+  - logo : "images/man-logo/coe.png"
+    URL : "https://www.coedistributing.com/"
+
+  - logo : "images/man-logo/openplan.png"
+    URL : "https://www.openplan.com/"
+
+  - logo : "images/man-logo/friant.png"
+    URL : "https://www.friant.com/"
+
+  - logo : "images/man-logo/nxtwall.png"
+    URL : "http://www.nxtwall.com/"

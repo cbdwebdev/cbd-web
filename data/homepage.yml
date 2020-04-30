@@ -91,37 +91,22 @@ service:
 
 # client logo slider
 clients_logo_slider:
-  enable : false
+  enable : true
   item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "http://examplesite.com"
+    - logo : "images/man-logo/ais.png"
+      URL : "https://www.ais-inc.com/"
 
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
+    - logo : "images/man-logo/coe.png"
+      URL : "https://www.coedistributing.com/"
 
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "http://examplesite.com"
+    - logo : "images/man-logo/openplan.png"
+      URL : "https://www.openplan.com/"
 
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
+    - logo : "images/man-logo/friant.png"
+      URL : "https://www.friant.com/"
 
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
-
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
+    - logo : "images/man-logo/nxtwall.png"
+      URL : "http://www.nxtwall.com/"
 
 # portfolio
 portfolio:
