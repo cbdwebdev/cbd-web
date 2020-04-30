@@ -16,3 +16,5 @@ fields:
   config: {}
   label: images
   description: Images associated with post
+pages:
+- content/ourwork/city-of-boston.md
