@@ -70,8 +70,8 @@ service:
     highlighted: false
   - title: New Furniture
     icon: company
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: We provide top-of-the-line products for panel and desking stations, seating,
+      case goods and filing needs. Visit our partners’ websites to learn more.
     highlighted: true
   - title: Used Furniture
     icon: chair
