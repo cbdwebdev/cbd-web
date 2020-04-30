@@ -959,6 +959,10 @@ footer .border-top {
   margin-bottom: 1rem;
 }
 
+.col-12 ul li {
+  font-weight: 500;
+}
+
 .cut-text {
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -972,6 +976,12 @@ footer .border-top {
 }
 
 @media(max-width:575px) {
+  .card-img-wrap {
+    height: 350px;
+  }
+}
+
+@media(max-width:767px) {
   .card-img-wrap {
     height: 350px;
   }
