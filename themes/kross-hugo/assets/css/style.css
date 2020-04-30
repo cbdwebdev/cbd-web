@@ -950,4 +950,6 @@ footer .border-top {
   max-width: 600px;
 }
 
-
+.btn-transparent:hover {
+  color: #94df70;
+}
