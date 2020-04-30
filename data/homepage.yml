@@ -75,8 +75,9 @@ service:
     highlighted: true
   - title: Used Furniture
     icon: chair
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+    content: If you’re on a tighter budget, our professional staff of installers and
+      refurbishing experts can help. Check out our inventory of used furniture on
+      Facebook Marketplace.
     highlighted: false
 clients_logo_slider:
   enable: true
