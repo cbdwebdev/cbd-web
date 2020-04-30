@@ -932,7 +932,7 @@ footer .border-top {
 }
 
 .card-img-wrap {
-  min-height: 255px;
+  height: 255px;
   display: flex;
 }
 
@@ -957,4 +957,22 @@ footer .border-top {
 .col-12 ul {
   list-style-type: initial;
   margin-bottom: 1rem;
+}
+
+.cut-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-body {
+  height: 250px;
+}
+
+@media(max-width:575px) {
+  .card-img-wrap {
+    height: 350px;
+  }
 }
