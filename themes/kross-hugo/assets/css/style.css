@@ -996,11 +996,24 @@ footer .border-top {
 }
 
 .carousel-inner .carousel-item { 
-  height: 500px;
-  background-size: cover;
+  height: 65vh;
+  background-size: contain;
   background-position: center center;
+  background-repeat: no-repeat;
+}
+
+* .sr-only {
+  background-color: #000;
 }
 
 .fa {
   font-size: 80px;
+}
+
+.carousel-indicators li {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-indicators .active {
+  background-color: #000;
 }
