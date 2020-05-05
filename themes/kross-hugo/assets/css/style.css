@@ -988,3 +988,7 @@ footer .border-top {
   background-size: cover;
   background-position: center center;
 }
+
+.fa {
+  font-size: 80px;
+}

@@ -62,17 +62,17 @@ service:
   title: Services
   item:
   - title: Construction
-    icon: spanner
+    icon: fa-hard-hat
     content: CBD Contracting specializes in commercial office remodeling throughout
       New England. From new tenant fit-ups, build-outs, and remodels.
     highlighted: false
   - title: Architectural (Glass) Walls
-    icon: company
+    icon: fa-building
     content: Our demountable architectural walls can integrate into any design. CBD
       can provide you with solid walls, segmented, and glass, to improve any space.
     highlighted: true
   - title: Office Furniture
-    icon: chair
+    icon: flaticon-chair
     content: We provide new, re-manufactured and refurbished Steelcase, Haworth, Knoll,
       Herman Miller, Allsteel and other office systems. We use our network of suppliers
       to find furniture that matches your specific needs.

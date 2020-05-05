@@ -37,7 +37,7 @@ URL = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+URL = "plugins/fontawesome/css/all.min.css"
 [[params.plugins.css]]
 URL = "plugins/flaticon/flaticon.css"
 [[params.plugins.js]]
