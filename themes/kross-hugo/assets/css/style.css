@@ -971,6 +971,15 @@ footer .border-top {
   height: 250px;
 }
 
+.contact-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-col * {
+  flex: 45%;
+}
+
 @media(max-width:575px) {
   .ourwork .card-img-wrap {
     height: 350px;
@@ -980,6 +989,9 @@ footer .border-top {
 @media(max-width:767px) {
   .ourwork .card-img-wrap {
     height: 350px;
+  }
+  .contact-col {
+    flex-direction: column;
   }
 }
 
