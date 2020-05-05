@@ -73,10 +73,9 @@ service:
     highlighted: true
   - title: Office Furniture
     icon: chair
-    content: We provide re-manufactured and refurbished Steelcase, Haworth, Knoll,
-      Herman Miller, Allsteel and other office systems at a fraction of the cost of
-      new products. We use our network of suppliers to find furniture that matches
-      your specific needs.
+    content: We provide new, re-manufactured and refurbished Steelcase, Haworth, Knoll,
+      Herman Miller, Allsteel and other office systems. We use our network of suppliers
+      to find furniture that matches your specific needs.
     highlighted: false
 clients_logo_slider:
   enable: true
