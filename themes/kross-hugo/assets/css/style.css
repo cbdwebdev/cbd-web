@@ -471,10 +471,10 @@ textarea.form-control {
     overflow: hidden
   }
   .hero-area img {
-    margin-top: 118px!important;
+    margin-top: 75px!important;
   }
   .navbar .navbar-brand img {
-    width: 180px;
+    width: 140px;
   }
 }
 
@@ -881,7 +881,7 @@ blockquote {
 }
 
 .navbar-brand img {
-  width: 226px;
+  width: 180px;
 }
 
 .invisible {
@@ -918,7 +918,7 @@ footer .border-top {
 }
 
 .hero-area img {
-  margin-top: 105px;
+  margin-top: 89px;
   width: 100%;
 }
 
