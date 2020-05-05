@@ -941,10 +941,6 @@ footer .border-top {
   object-position: 25% 0;
 }
 
-.flexslider {
-  max-width: 600px;
-}
-
 .post-image {
   width: 100%;
   max-width: 600px;
@@ -985,4 +981,10 @@ footer .border-top {
   .ourwork .card-img-wrap {
     height: 350px;
   }
+}
+
+.carousel-inner .carousel-item { 
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
 }
