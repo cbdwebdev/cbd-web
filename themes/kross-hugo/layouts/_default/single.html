@@ -9,14 +9,37 @@
           {{ if eq (len .Params.Images) 1 }}
           <img src="{{(index .Params.Images 0) | absURL }}" alt="post-thumb" class="img-fluid d-block mx-auto rounded mb-4 post-image">
           {{ else if ne (len .Params.Images) 0}}
-          <div class="flexslider mx-auto">
-            <ul class="slides">
-              {{ range .Params.Images }}
-              <li>
-                <img src="{{. | absURL}}" />
-              </li>
-              {{ end }}
-            </ul>
+          <div class="container mx-auto mb-4">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                {{ $counter := 0 }}
+                {{ range .Params.Images }}
+                <li data-target="#myCarousel" data-slide-to="{{$counter}}" {{if eq $counter 0}}class="active"{{ end }}></li>
+                {{ $counter = add $counter 1 }}
+                {{ end }}
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                {{ $counter = 0 }}
+                {{ range .Params.Images }}
+                <div class="carousel-item{{ if eq $counter 0 }} active{{ end }}" style="background-image:url({{ . | absURL }})">
+                </div>
+                {{ $counter = add $counter 1 }}
+                {{ end }}
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
           {{end}}
           <div class="content max-width">
