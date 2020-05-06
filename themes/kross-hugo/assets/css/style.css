@@ -470,9 +470,6 @@ textarea.form-control {
   .hero-area {
     overflow: hidden
   }
-  .hero-area img {
-    margin-top: 75px!important;
-  }
   .navbar .navbar-brand img {
     width: 140px;
   }
@@ -918,17 +915,12 @@ footer .border-top {
 }
 
 .hero-area img {
-  margin-top: 89px;
   width: 100%;
 }
 
 .contact.section p {
   font-size: 16px;
   font-weight: 400;
-}
-
-.section.extra-top {
-  padding-top: 150px;
 }
 
 .card-img-wrap {
