@@ -4,21 +4,21 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: description
-  label: description
+  label: Description
 - name: images
   type: image_gallery
   config: {}
-  label: images
+  label: Images
   description: Images associated with post
 - type: text
   name: video
-  label: video
+  label: Youtube Link
 pages:
 - content/ourwork/arcam-ebm.md
 - content/ourwork/city-of-boston.md
