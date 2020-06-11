@@ -18,6 +18,9 @@
                 <li data-target="#myCarousel" data-slide-to="{{$counter}}" {{if eq $counter 0}}class="active"{{ end }}></li>
                 {{ $counter = add $counter 1 }}
                 {{ end }}
+                {{ if .Params.Video }}
+                <li data-target="#myCarousel" data-slide-to="{{$counter}}"></>
+                {{ end }}
               </ol>
 
               <!-- Wrapper for slides -->
@@ -27,6 +30,27 @@
                 <div class="carousel-item{{ if eq $counter 0 }} active{{ end }}" style="background-image:url({{ . | absURL }})">
                 </div>
                 {{ $counter = add $counter 1 }}
+                {{ end }}
+
+                <!-- Video slide -->
+                {{ $id := "" }}
+                {{ with .Params.Video  }}
+                {{ if in . "youtube"}}
+                {{ $base := path.Base .}}
+                {{ $splittedList := split $base "?v=" }}
+                {{ $id = substr (index $splittedList 1) 0 11 }}
+                {{ else if in . "youtu.be" }}
+                {{ $id = path.Base . }}
+                {{ else }}
+                <div class="carousel-item">
+                  <b style="color:red;">Error with video link: must be like https://www.youtube.com/watch?v=HgC9L22BIT4 or https://youtu.be/HgC9L22BIT4</b>
+                </div>
+                {{ end }}
+                {{ end }}
+                {{ if .Params.Video }}
+                <div class="carousel-item video">
+                  <iframe id="ytplayer" src="https://www.youtube.com/embed/{{$id}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 {{ end }}
               </div>
 

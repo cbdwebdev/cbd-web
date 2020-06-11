@@ -16,6 +16,9 @@ fields:
   config: {}
   label: images
   description: Images associated with post
+- type: text
+  name: video
+  label: video
 pages:
 - content/ourwork/arcam-ebm.md
 - content/ourwork/city-of-boston.md

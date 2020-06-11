@@ -1,8 +1,8 @@
 <div class="col-lg-4 col-sm-6 mb-4">
-	<a href="{{.Permalink}}">
+	<a href="{{ .Permalink }}">
 	  <article class="card hover-shadow shadow ourwork">
 	  	<div class="card-img-wrap">
-	    	<img class="rounded card-img-top" src="{{(index .Params.Images 0) | relURL}}" alt="{{.Title }}">
+	    	<img class="rounded card-img-top" src="{{ (index .Params.Images 0) | relURL }}" alt="{{ .Title }}">
 	    </div>
 	    <div class="card-body">
 	      <h4 class="card-title">{{.Title }}</h4>

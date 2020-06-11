@@ -78,8 +78,8 @@
         {{ range .item }}
         <div class="col-lg-3 col-md-4 text-center">
           <img src="{{.logo | relURL }}" alt="icon">
-          <p class="mb-0">{{.duration}}</p>
-          <h4>{{.title }}</h4>
+          <p class="mb-0">{{ .duration }}</p>
+          <h4>{{ .title }}</h4>
           <h6 class="text-light">{{.company }}</h6>
         </div>
         {{ end }}
@@ -106,9 +106,9 @@
               <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
             </div>
             <div>
-              <p class="text-dark mb-1">{{.year}}</p>
+              <p class="text-dark mb-1">{{ .year }}</p>
               <h4>{{ .title }}</h4>
-              <p class="mb-0 text-light">{{.academy}}</p>
+              <p class="mb-0 text-light">{{ .academy }}</p>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
       </div>
     </div>
     <!-- bg image -->
-    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+    <img class="img-fluid edu-bg-image w-100" src="{{ `images/backgrounds/education-bg.png` | relURL }}" alt="bg-image">
   </section>
   <!-- /education -->
   {{ end }}
@@ -140,7 +140,7 @@
               <!-- <i class="{{.icon }} icon mb-5 d-inline-block"></i> -->
               <i class="fa {{.icon}}"></i>
               <h4 class="mb-4">{{.title}}</h4>
-              <p>{{.content | markdownify}}</p>
+              <p>{{ .content | markdownify }}</p>
             </div>
           </div>
         </div>
@@ -219,15 +219,7 @@
         </div>
       </div>
     </div>
-    <!-- bg shapes -->
-    <!-- <img src="{{`images/backgrounds/map.png` | relURL }}" alt="map" class="img-fluid bg-map"> -->
-    <!-- <img src="{{`images/illustrations/dots-group-v.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-1"> -->
-    <!-- <img src="{{`images/illustrations/leaf-orange.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-2"> -->
-    <!-- <img src="{{`images/illustrations/dots-group-sm.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-3"> -->
-    <!-- <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-4"> -->
-    <!-- <img src="{{`images/illustrations/leaf-cyan.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-5"> -->
   </section>
-  <!-- /testimonial -->
   {{ end }}
   {{ end }}
 
