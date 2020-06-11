@@ -972,21 +972,6 @@ footer .border-top {
   flex: 45%;
 }
 
-@media(max-width:575px) {
-  .ourwork .card-img-wrap {
-    height: 350px;
-  }
-}
-
-@media(max-width:767px) {
-  .ourwork .card-img-wrap {
-    height: 350px;
-  }
-  .contact-col {
-    flex-direction: column;
-  }
-}
-
 .carousel-inner .carousel-item { 
   height: 65vh;
   background-size: contain;
@@ -1034,4 +1019,28 @@ footer .border-top {
 .carousel-item.video {
   float: none;
   text-align: center;
+}
+
+.standalone-vid {
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 2rem;
+}
+
+@media(max-width:767px) {
+  .ourwork .card-img-wrap {
+    height: 350px;
+  }
+  .contact-col {
+    flex-direction: column;
+  }
+  .standalone-vid {
+    height: 56vh;
+  }
+}
+
+@media(max-width:575px) {
+  .standalone-vid {
+    height: 40vh;
+  }
 }

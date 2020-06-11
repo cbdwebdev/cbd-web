@@ -2,13 +2,33 @@
 	<a href="{{ .Permalink }}">
 	  <article class="card hover-shadow shadow ourwork">
 	  	<div class="card-img-wrap">
+	  	{{ if isset .Params "images" }}
 	    	<img class="rounded card-img-top" src="{{ (index .Params.Images 0) | relURL }}" alt="{{ .Title }}">
-	    </div>
+	    {{ else if .Params.Video }}
+	    	{{ $id := "" }}
+	    	{{ $valid:= 1 }}
+            {{ with .Params.Video  }}
+            {{ if in . "youtube"}}
+            {{ $base := path.Base .}}
+            {{ $splittedList := split $base "?v=" }}
+            {{ $id = substr (index $splittedList 1) 0 11 }}
+            {{ else if in . "youtu.be" }}
+            {{ $id = path.Base . }}
+            {{ else }}
+              <b style="color:red;">Error with video link: must be like https://www.youtube.com/watch?v=HgC9L22BIT4 or https://youtu.be/HgC9L22BIT4</b>
+              {{ $valid = 0 }}
+            {{ end }}
+            {{ end }}
+            {{ if ne $valid 0 }}
+            <img class="rounded card-img-top" src="https://img.youtube.com/vi/{{$id}}/maxresdefault.jpg" alt="{{ .Title }}">
+            {{ end }}
+	    {{ else }}
+		    <b style="color:red;font-weight:bold;">Sorry but our editor forgot to get an image or video</b>
+		{{ end }}
+		</div>
 	    <div class="card-body">
 	      <h4 class="card-title">{{.Title }}</h4>
 	      <p class="cars-text cut-text">{{.Summary}}</p>
-	      <!-- Read More button commented out since the whole thing can be a link -->
-	      <!-- <a href="{{.Permalink}}" class="btn btn-xs btn-primary">Read More</a> -->
 	    </div>
 	  </article>
 	</a>
