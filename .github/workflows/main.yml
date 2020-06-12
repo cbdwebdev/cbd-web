@@ -31,7 +31,7 @@ jobs:
       - name: 🚀 Build and deploy
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: v0.72.0/extended
+          HUGO_VERSION: v0.72.0-ext
           TARGET_REPO: cbdwebdev/cbdwebdev.github.io
           TOKEN: ${{ secrets.TOKEN }}
           CNAME: cbdcompanies.com
