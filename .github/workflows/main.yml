@@ -10,6 +10,11 @@ on:
   pull_request:
     branches: [ master ]
 
+# env:
+#   REMOTE: cbdwebdev/cbdwebdev.github.io.git
+#   DEST: public
+#   TOKEN: ${{ secrets.TOKEN }}
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -20,10 +25,13 @@ jobs:
     steps:
       - uses: actions/checkout@master
         
-      - name: Deploy the site
+#       - name: 🚀 Build and deploy
+#         uses: victoriadrake/hugo-remote@master
+        
+      - name: 🚀 Build and deploy
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
-          HUGO_VERSION: 0.69.2
+          HUGO_VERSION: v0.72.0/extended
           TARGET_REPO: cbdwebdev/cbdwebdev.github.io
           TOKEN: ${{ secrets.TOKEN }}
           CNAME: cbdcompanies.com
