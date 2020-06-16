@@ -2,7 +2,7 @@
 date = 2020-06-10T14:00:00Z
 description = "Custom made sneeze guard for an office desk"
 draft = true
-images = ["/images/screenguard-in-office.jpg", "/images/screen-guard-in-warehouse.jpg"]
+images = ["/images/screenguard-in-office.jpg", "/images/screenguard-in-office.jpg", "/images/screen-guard-in-warehouse.jpg"]
 title = "Desk Screen Guards"
 video = ""
 
