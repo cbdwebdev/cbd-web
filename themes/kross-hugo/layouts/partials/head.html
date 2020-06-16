@@ -27,4 +27,8 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.ico` | absURL }} " id="favicon" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
+  {{ with .Params.forestry_instant_preview_id }}
+    {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+  {{ end -}}
 </head>
