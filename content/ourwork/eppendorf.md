@@ -6,4 +6,4 @@ title = "Eppendorf"
 video = ""
 
 +++
-Finished phase 1 of a 500 linear ft installation with Nxtwall View Series at Eppendorf in Enfield, Connecticut.
+Finished phase 1 of a 500 linear ft installation with Nxtwall View Series at Eppendorf in Enfield, Connecticut. 
