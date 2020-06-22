@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+	  "editorconfig.editorconfig",
+	  "budparr.language-hugo-vscode",
+	  "gruntfuggly.todo-tree"
+	]
+  }
+  
