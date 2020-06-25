@@ -2,6 +2,9 @@
 	"recommendations": [
 	  "editorconfig.editorconfig",
 	  "budparr.language-hugo-vscode",
+      "bungcip.better-toml",
+      "michelemelluso.code-beautifier",
+      "adamwalzer.scss-lint",
 	  "gruntfuggly.todo-tree"
 	]
   }
