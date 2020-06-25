@@ -5,58 +5,6 @@ about:
   enable: true
   content: The one-stop solution for all of your commercial construction and office
     furniture needs
-  button:
-    enable: false
-    label: learn more
-    URL: about
-skill:
-  enable: false
-  title: Skills
-  item:
-  - title: Web Design
-    progress: 90%
-    color: "#fdb157"
-  - title: Logo Design
-    progress: 60%
-    color: "#9473e6"
-  - title: After Effects
-    progress: 80%
-    color: "#bdecf6"
-  - title: Web App
-    progress: 70%
-    color: "#ffbcaa"
-experience:
-  enable: false
-  title: Experience
-  item:
-  - logo: images/experience/icon-1.png
-    title: Junior UX Designer
-    company: WEBEX
-    duration: Jan 2007 - Feb 2009
-  - logo: images/experience/icon-2.png
-    title: UX & UI Designer
-    company: AUGMEDIX
-    duration: Mar 2009 - Aug 2014
-  - logo: images/experience/icon-1.png
-    title: Senior UI Designer
-    company: THEMEFISHER
-    duration: Sep 2014 - Present
-education:
-  enable: false
-  title: Education
-  item:
-  - title: Marters in UX Design
-    year: "2006"
-    academy: Masassusets Institute of Technology
-  - title: Honours in Fine Arts
-    year: "2004"
-    academy: Harvard University
-  - title: Higher Secondary Certificat
-    year: "2000"
-    academy: Cardiff School
-  - title: Secondary School Certificate
-    year: "1998"
-    academy: Cardiff School
 service:
   enable: true
   title: Services
@@ -90,10 +38,6 @@ clients_logo_slider:
     URL: https://www.friant.com/
   - logo: images/man-logo/nxtwall.png
     URL: http://www.nxtwall.com/
-portfolio:
-  enable: false
-  title: Portfolio
-  item_show: "5"
 testimonial:
   enable: true
   title: Testimonials

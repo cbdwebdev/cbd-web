@@ -1,0 +1,5 @@
+# client logo slider
+clients_logo_slider:
+  enable : true
+  title : "My Partners"
+  # clients logo comes from 'data/homepage.yml' file
