@@ -90,7 +90,6 @@ clients_logo_slider:
     URL: https://www.friant.com/
   - logo: images/man-logo/nxtwall.png
     URL: http://www.nxtwall.com/
-  title: Our Partnering Manufacturers
 portfolio:
   enable: false
   title: Portfolio
