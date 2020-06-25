@@ -140,18 +140,6 @@ h6 {
   background: var(--primary-color);
   color: #fff;
 }
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 999999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 ol {
   list-style-type: none;
   margin: 0;
@@ -639,7 +627,7 @@ blockquote {
   }
 }
 .page-title-alt {
-  padding: 150px 0 50px;
+  padding: 50px 0;
   .container {
     position: relative;
     z-index: 1;
@@ -684,7 +672,7 @@ blockquote {
   margin-top: -230px;
 }
 .page-title {
-  padding: 150px 0 50px;
+  padding: 50px 0;
   .container {
     position: relative;
     z-index: 1;

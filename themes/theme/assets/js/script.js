@@ -1,22 +1,6 @@
 (function ($) {
     'use strict';
 
-
-    // Preloader js    
-    $(window).on('load', function () {
-        $('.preloader').fadeOut(100);
-    });
-
-
-    // Sticky Menu
-    // $(window).scroll(function () {
-    //     if ($('.navigation').offset().top > 50) {
-    //         $('.navigation').addClass('nav-bg');
-    //     } else {
-    //         $('.navigation').removeClass('nav-bg');
-    //     }
-    // });
-
     // Background-images
     $('[data-background]').each(function () {
         $(this).css({
@@ -44,7 +28,7 @@
 
         var parallaxBox = document.getElementById('parallax');
         /*
-         Fix js error, occurred at pages other than the home page. 
+         Fix js error, occurred at pages other than the home page.
          When there're no parallax, just ignore the below
          other operations, as below elements are bingding to the parallax.
         */
