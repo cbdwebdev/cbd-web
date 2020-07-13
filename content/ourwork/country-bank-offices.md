@@ -1,9 +1,9 @@
 +++
 date = 2020-06-04T15:40:58Z
 description = "Office instillation in bank's main lobby"
-images = ["/images/country-bank-3-in-sight.JPG", "/images/country-bank-pic-by-door.JPG", "/images/1-and-2-country-bank.JPG", "/images/country-bank-3rd-office-solo.JPG"]
+images = ["/images/img_2438.jpg", "/images/img_2442.jpg", "/images/img_2441.jpg", "/images/img_2440.jpg", "/images/img_2439.jpg"]
 title = "Country Bank Offices "
 video = "https://www.youtube.com/watch?v=HgC9L22BIT4"
 
 +++
-Creative Business Design Companies went to Country Bank in Worcester, Massachusetts to install the framework for three new offices in the bank's main lobby.
+Creative Business Design went to Country Bank in Worcester, Massachusetts to install the framework and glass walls for three new offices in the bank's main lobby.
