@@ -2,37 +2,37 @@
 label: Post
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: Title
-- type: datetime
-  name: date
-  label: Date
-- type: text
-  name: description
-  label: Description
-- name: images
-  type: image_gallery
-  config: {}
-  label: Images
-  description: Images associated with post
-- type: text
-  name: video
-  label: Youtube Link
+    - type: text
+      name: title
+      label: Title
+    - type: datetime
+      name: date
+      label: Date
+    - type: text
+      name: description
+      label: Description
+    - name: images
+      type: image_gallery
+      config: {}
+      label: Images
+      description: Images associated with post
+    - type: text
+      name: video
+      label: Youtube Link
 pages:
-- content/ourwork/arcam-ebm.md
-- content/ourwork/city-of-boston.md
-- content/ourwork/country-bank-offices.md
-- content/ourwork/current-pre-owned-inventory.md
-- content/ourwork/desk-screen-guards.md
-- content/ourwork/eppendorf.md
-- content/ourwork/getfused-inc-remodel.md
-- content/ourwork/glass-modular-wall-gallery.md
-- content/ourwork/hilco-move.md
-- content/ourwork/jack-madden-ford.md
-- content/ourwork/ks-partners.md
-- content/ourwork/millwork-cabinetry-gallery.md
-- content/ourwork/orbotech-office-remodel.md
-- content/ourwork/providence-water-department.md
-- content/ourwork/tufts-university-chaplaincy.md
-- content/ourwork/zensar-technologies.md
+    - content/ourwork/arcam-ebm.md
+    - content/ourwork/city-of-boston.md
+    - content/ourwork/country-bank-offices.md
+    - content/inventory/current-pre-owned-inventory.md
+    - content/ourwork/desk-screen-guards.md
+    - content/ourwork/eppendorf.md
+    - content/ourwork/getfused-inc-remodel.md
+    - content/ourwork/glass-modular-wall-gallery.md
+    - content/ourwork/hilco-move.md
+    - content/ourwork/jack-madden-ford.md
+    - content/ourwork/ks-partners.md
+    - content/ourwork/millwork-cabinetry-gallery.md
+    - content/ourwork/orbotech-office-remodel.md
+    - content/ourwork/providence-water-department.md
+    - content/ourwork/tufts-university-chaplaincy.md
+    - content/ourwork/zensar-technologies.md

@@ -12,9 +12,13 @@ URL = "ourwork"
 name = "Our Work"
 weight = 3
 [[menu.main]]
+URL = "inventory"
+name = "Inventory"
+weight = 4
+[[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 4
+weight = 5
 [params]
 address = "4 Keith Way, Suite 3 <br> Hingham, MA, 02043"
 author = "Jeffrey Lawson"

@@ -1,48 +1,56 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: ""
+webhook_url:
 sections:
-- type: directory
-  path: content/about
-  label: About
-  create: none
-  match: "*"
-- type: directory
-  path: content/ourwork
-  label: Post
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
-  path: data
-  label: Data
-  create: documents
-  match: "*"
-  new_doc_ext: yml
-- type: directory
-  path: content/contact
-  label: Contact
-  create: none
-  match: "*"
-- type: document
-  path: config.toml
-  label: Configuration
+    - type: directory
+      path: content/about
+      label: About
+      create: none
+      match: "*"
+    - type: directory
+      path: content/ourwork
+      label: Our Work
+      create: documents
+      match: "*"
+      templates:
+          - post
+    - type: directory
+      path: content/inventory
+      label: Inventory
+      create: documents
+      match: "*"
+      templates:
+          - post
+    - type: directory
+      path: data
+      label: Data
+      create: documents
+      match: "*"
+      new_doc_ext: yml
+    - type: directory
+      path: content/contact
+      label: Contact
+      create: none
+      match: "*"
+    - type: document
+      path: config.toml
+      label: Configuration
 upload_dir: static/images
 public_path: "/images"
-front_matter_path: ''
+front_matter_path: ""
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  preview_env:
-  - HUGO_ENV=staging
-  - HUGO_VERSION=0.64.1
-  preview_output_directory: public
-  preview_docker_image: forestryio/hugo:latest
-  mount_path: "/srv"
-  working_dir: "/srv"
-  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
-    -d public --buildDrafts --buildFuture --buildExpired
+    preview_env:
+        - HUGO_ENV=staging
+        - HUGO_VERSION=0.64.1
+    preview_output_directory: public
+    preview_docker_image: forestryio/hugo:latest
+    mount_path: "/srv"
+    working_dir: "/srv"
+    instant_preview_command:
+        hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+        -d public --buildDrafts --buildFuture --buildExpired
 version: 0.69.0
