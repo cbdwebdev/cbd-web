@@ -1,11 +1,9 @@
 +++
 date = 2021-07-25T04:00:00Z
-description = "Current Pre-Owned Inventory"
-draft = true
-images = ["/images/sc-answers-3.JPG"]
+description = "Haworth 6x6"
+images = ["/images/haworth-grey.jpg"]
 title = "Current Pre-Owned Inventory"
 video = ""
 
 +++
-
-SC Answers 1 of 6 $650/ea.
+Haworth $650/ea. Qty-6 Left
