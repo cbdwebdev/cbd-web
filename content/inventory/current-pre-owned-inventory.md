@@ -1,7 +1,6 @@
 +++
 date = 2021-07-25T04:00:00Z
 description = "David Roland 40/4 stack chair"
-draft = true
 images = ["/images/gf-40_4-stacked.jpg", "/images/gf-40-4.jpg"]
 title = "Current Pre-Owned Inventory"
 video = ""
