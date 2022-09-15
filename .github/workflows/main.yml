@@ -7,7 +7,7 @@ on:
 env:
   REMOTE: cbdwebdev/cbdwebdev.github.io.git
   DEST: public
-  TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  TOKEN: ${{ secrets.TOKEN }}
 
 jobs:
   build:
