@@ -7,12 +7,13 @@ on:
 env:
   REMOTE: cbdwebdev/cbdwebdev.github.io.git
   DEST: public
-  TOKEN: ${{ secrets.TOKEN }}
+  TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+
       - name: 🚀 Build and deploy
         uses: victoriadrake/hugo-remote@v2.0
