@@ -1,9 +1,9 @@
 +++
 date = 2021-07-25T04:00:00Z
-description = "Haworth 6x6"
-images = ["/images/haworth-grey.jpg"]
+description = "David Roland 40/4 stack chair"
+images = ["/images/gf-40_4-stacked.jpg", "/images/gf-40-4.jpg"]
 title = "Current Pre-Owned Inventory"
 video = ""
 
 +++
-Haworth $650/ea. Qty-6 Left
+David Roland 40/4 $20/ea. Qty-200 available
