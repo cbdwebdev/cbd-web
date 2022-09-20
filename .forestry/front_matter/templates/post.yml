@@ -20,6 +20,7 @@ fields:
   name: video
   label: Youtube Link
 pages:
+- content/inventory/club-seating.md
 - content/inventory/current-pre-owned-inventory-1.md
 - content/inventory/current-pre-owned-inventory.md
 - content/ourwork/arcam-ebm.md
