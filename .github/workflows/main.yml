@@ -8,8 +8,7 @@ env:
     REMOTE: cbdwebdev/cbdwebdev.github.io.git
     DEST: public
     TOKEN: ${{ secrets.TOKEN }}
-    TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-    TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+    
 
 jobs:
     build:
@@ -23,6 +22,9 @@ jobs:
                 run_install: true
 
             - name: Build TinaCMS
+              env: 
+                TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+                TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
               run: pnpm build
 
             # TODO deploy to other repo or gh-pages branch
