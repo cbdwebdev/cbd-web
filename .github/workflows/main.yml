@@ -1,19 +1,24 @@
 name: Deploy site
 
 on:
-  push:
-    branches: [ master ]
+    push:
+        branches: [master]
 
 env:
-  REMOTE: cbdwebdev/cbdwebdev.github.io.git
-  DEST: public
-  TOKEN: ${{ secrets.TOKEN }}
+    REMOTE: cbdwebdev/cbdwebdev.github.io.git
+    DEST: public
+    TOKEN: ${{ secrets.TOKEN }}
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@master
 
-      - name: 🚀 Build and deploy
-        uses: victoriadrake/hugo-remote@v2.0
+            - name: Build TinaCMS
+              env:
+                TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
+                TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+              run: pnpm build
+
+            # TODO deploy to other repo or gh-pages branch
