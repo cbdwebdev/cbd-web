@@ -21,6 +21,11 @@ jobs:
                 version: 8.10.5
                 run_install: true
 
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2.6.0
+              with:
+                hugo-version: v0.121.1
+
             - name: Build TinaCMS
               env:
                 NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
