@@ -33,4 +33,10 @@ jobs:
                 TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
               run: pnpm build
 
-            # TODO deploy to other repo or gh-pages branch
+            - name: GitHub Branch Deployer
+              uses: nicholasgriffintn/github-branch-deployment-action@1.0.0
+              with:
+                # Destination branch to push changes
+                BRANCH: gh-pages
+                # Directory to push from. Defaults to root
+                FOLDER: public
