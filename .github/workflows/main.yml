@@ -36,6 +36,7 @@ jobs:
             - name: GitHub Branch Deployer
               uses: nicholasgriffintn/github-branch-deployment-action@1.0.0
               with:
+                TOKEN: ${{ secrets.TOKEN }}
                 # Destination branch to push changes
                 BRANCH: gh-pages
                 # Directory to push from. Defaults to root
