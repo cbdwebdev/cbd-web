@@ -9,6 +9,9 @@ env:
     DEST: public
     TOKEN: ${{ secrets.TOKEN }}
 
+permissions:
+  id-token: write
+
 jobs:
     build:
         runs-on: ubuntu-latest
