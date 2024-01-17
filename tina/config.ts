@@ -8,6 +8,7 @@ const branch =
     process.env.VERCEL_GIT_COMMIT_REF ||
     process.env.HEAD ||
     "main";
+console.log("BRANCH", branch)
 
 const stringParamsFields = (names: string[]): TinaField[] =>
     names.map((name) => ({
