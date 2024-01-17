@@ -7,5 +7,3 @@ video = ""
 +++
 
 Black Club Chairs, Qty - 4 Available @ $55/ea
-
-test
