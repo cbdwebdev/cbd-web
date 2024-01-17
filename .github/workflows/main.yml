@@ -38,3 +38,11 @@ jobs:
               with:
                 # Directory to push from
                 path: public
+
+            - name: Deploy GitHub Pages site
+              uses: actions/deploy-pages@v4.0.3
+              with:
+                # GitHub token
+                token: ${{ secrets.TOKEN }}
+
+        
