@@ -7,7 +7,7 @@ const branch =
     process.env.GITHUB_BRANCH ||
     process.env.VERCEL_GIT_COMMIT_REF ||
     process.env.HEAD ||
-    "main";
+    "master";
 
 const stringParamsFields = (names: string[]): TinaField[] =>
     names.map((name) => ({

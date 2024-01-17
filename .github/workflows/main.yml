@@ -2,7 +2,7 @@ name: Deploy site
 
 on:
     push:
-        branches: [main]
+        branches: [master]
 
 env:
     REMOTE: cbdwebdev/cbdwebdev.github.io.git
@@ -16,7 +16,7 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@main
+            - uses: actions/checkout@master
             - name: Setup pnpm
               uses: pnpm/action-setup@v2.4.0
               with:
@@ -46,4 +46,4 @@ jobs:
               with:
                 token: ${{ secrets.NEW_TOKEN }}
 
-        
+
