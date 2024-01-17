@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2022-09-20T04:00:00.000Z
 description = "Black Club Chairs, Qty - 4 Available @ $55/ea."

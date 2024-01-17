@@ -1,5 +1,5 @@
----
-title: Inventory Page
-date: 2021-08-04 22:29:38
-description: meta
----
++++
+title = "Inventory Page"
+date = 2021-08-04T04:00:00.000Z
+description = "meta"
++++

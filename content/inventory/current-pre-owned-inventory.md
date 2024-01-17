@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2021-07-25T04:00:00.000Z
 description = "David Roland 40/4 stack chair"

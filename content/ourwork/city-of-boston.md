@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2018-06-09T04:00:00.000Z
 description = "Furniture"

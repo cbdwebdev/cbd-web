@@ -1,5 +1,5 @@
 import type { TinaField } from "tinacms";
-export function postFields() {
+export function postFields(): TinaField[] {
   return [
     {
       type: "string",
@@ -27,5 +27,5 @@ export function postFields() {
       name: "video",
       label: "Youtube Link",
     },
-  ] as TinaField[];
+  ];
 }

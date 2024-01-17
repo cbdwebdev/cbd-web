@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2020-06-19T16:00:00.000Z
 description = "Phase 1 of 500 linear ft installation "
@@ -23,4 +19,4 @@ video = ""
 _template = "post"
 +++
 
-Finished phase 1 of a 500 linear ft installation with Nxtwall View Series at Eppendorf in Enfield, Connecticut. 
+Finished phase 1 of a 500 linear ft installation with Nxtwall View Series at Eppendorf in Enfield, Connecticut.

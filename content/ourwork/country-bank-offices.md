@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2020-06-04T15:40:58.000Z
 description = "Office instillation in bank's main lobby"

@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2018-04-30T04:00:00.000Z
 description = "Furniture, Millwork & Cabinetry"

@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2018-09-10T04:00:00.000Z
 description = "Furniture, Construction, Millwork & Cabinetry, Commercial Flooring"

@@ -1,7 +1,3 @@
----
-_template: post
----
-
 +++
 date = 2018-01-07T05:00:00.000Z
 description = "Glass Walls & Architectural Products"
