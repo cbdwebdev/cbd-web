@@ -6,4 +6,4 @@ images = [ "/images/20220914_185657_resized.jpg" ]
 video = ""
 +++
 
-Black Club Chairs, Qty - 4 Available @ $55/ea
+White Club Chairs, Qty - 2 Available @ $75/ea![](</images/white lounge seating qty 2.jpg>)
