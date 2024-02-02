@@ -1,10 +1,9 @@
 +++
-date = 2021-08-04T04:00:00.000Z
-description = "Hon Lota Task Chair"
-images = [ "/images/hon-lota-task-1.jpg" ]
 title = "Current Pre-Owned Inventory"
+date = 2024-02-01T05:00:00.000Z
+description = "Herman Miller Aeron Task Chair"
+images = [ "/images/HM Aeron Blk.jpg" ]
 video = ""
-_template = "post"
 +++
 
-Hon Lota Task Chair, reupholstered $185/ea. Qty-35 Available
+Herman Miller Aeron $350/ea. Qty-50 Available
