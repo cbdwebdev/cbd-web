@@ -12,4 +12,4 @@ images = [
 
 We are excited to announce that we have completed our Phase 1 at Sela-The International Private School in Hingham!
 
-[https://www.hinghamanchor.com/sela-announces-expansion-of-their-current-school-of-early-global-education/](https://www.hinghamanchor.com/sela-announces-expansion-of-their-current-school-of-early-global-education/)
+[https://www.hinghamanchor.com/sela-announces-expansion-of-their-current-school-of-early-global-education/![](</images/Sela 1.jpeg>)](https://www.hinghamanchor.com/sela-announces-expansion-of-their-current-school-of-early-global-education/)
