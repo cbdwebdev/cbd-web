@@ -1,5 +1,5 @@
 +++
-title = "Sela School Phase 1 Expansion"
+title = "Sela School Phase 1 Expansion Photos"
 date = 2024-03-28T04:00:00.000Z
 images = [
   "/images/Room 2 After.jpeg",
