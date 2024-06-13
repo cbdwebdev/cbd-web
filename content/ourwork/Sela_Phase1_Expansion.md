@@ -2,6 +2,10 @@
 title = "Sela School Phase 1 Expansion"
 date = 2024-03-28T04:00:00.000Z
 images = [
+  "/images/Room 2 After.jpeg",
+  "/images/Room After.jpeg",
+  "/images/Room 2 Before .jpg",
+  "/images/Hallway Before.jpg",
   "/images/Sela 5.jpeg",
   "/images/Sela 4.jpeg",
   "/images/Sela 3.jpeg",
