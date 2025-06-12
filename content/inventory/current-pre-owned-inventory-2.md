@@ -8,3 +8,4 @@ images = [
 ]
 +++
 
+SitOnIt Multipurpose Chair (Black) $50/ea. Qty-37 available
