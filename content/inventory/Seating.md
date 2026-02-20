@@ -6,4 +6,4 @@ images = [ "", "/images/Red Swivel Chair.jpg" ]
 video = ""
 +++
 
-Red Club Chairs, Qty - 4 Available @ $75/ea![Club Seating](</images/Red Swivel Chair.jpg> "Red Club Chair Qty-4 available @ $75/ea")
+Red Club Chairs, Qty - 2 Available @ $75/ea![Club Seating](</images/Red Swivel Chair.jpg> "Red Club Chair Qty-4 available @ $75/ea")
