@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 15 Jun 2026 04:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>second test - backend</title>
+      <link>/inventory/test-2-backend/</link>
+      <pubDate>Mon, 15 Jun 2026 04:00:00 +0000</pubDate>
+      <guid>/inventory/test-2-backend/</guid>
+      <description>second test</description>
+    </item>
+    <item>
       <title>Test inventory</title>
       <link>/inventory/test_inv/</link>
       <pubDate>Mon, 15 Jun 2026 04:00:00 +0000</pubDate>
