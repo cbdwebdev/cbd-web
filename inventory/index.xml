@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inventory Page on CBD Companies</title>
+    <link>/inventory/</link>
+    <description>Recent content in Inventory Page on CBD Companies</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Aug 2021 04:00:00 +0000</lastBuildDate>
+    <atom:link href="/inventory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test inventory</title>
+      <link>/inventory/test_inv/</link>
+      <pubDate>Mon, 15 Jun 2026 04:00:00 +0000</pubDate>
+      <guid>/inventory/test_inv/</guid>
+      <description>[Test New Inventory slot]]</description>
+    </item>
+    <item>
+      <title>Club Seating</title>
+      <link>/inventory/seating/</link>
+      <pubDate>Thu, 12 Jun 2025 04:00:00 +0000</pubDate>
+      <guid>/inventory/seating/</guid>
+      <description>Red Club Chairs, Qty - 6 Available @ $75/ea</description>
+    </item>
+    <item>
+      <title>Current Pre-Owned Inventory</title>
+      <link>/inventory/current-pre-owned-inventory-1/</link>
+      <pubDate>Thu, 12 Jun 2025 04:00:00 +0000</pubDate>
+      <guid>/inventory/current-pre-owned-inventory-1/</guid>
+      <description>Herman Miller Aeron $350/ea. Qty-1 Available</description>
+    </item>
+    <item>
+      <title>Current Pre-Owned Inventory</title>
+      <link>/inventory/current-pre-owned-inventory-2/</link>
+      <pubDate>Thu, 12 Jun 2025 04:00:00 +0000</pubDate>
+      <guid>/inventory/current-pre-owned-inventory-2/</guid>
+      <description>SitOnIt Multipurpose Chair (Black) $50/ea. Qty-37 available</description>
+    </item>
+    <item>
+      <title>Current Pre-Owned Inventory</title>
+      <link>/inventory/current-pre-owned-inventory/</link>
+      <pubDate>Thu, 12 Jun 2025 04:00:00 +0000</pubDate>
+      <guid>/inventory/current-pre-owned-inventory/</guid>
+      <description>David Roland 40/4 $40/ea. Qty-200 available</description>
+    </item>
+  </channel>
+</rss>
