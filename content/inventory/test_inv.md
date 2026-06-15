@@ -5,4 +5,4 @@ description = "testing backend"
 images = [ "/images/20210806_114724.jpg" ]
 +++
 
-\[Test New Inventory slot]] 
+\[Test New Inventory slot] another test here, update git repo
