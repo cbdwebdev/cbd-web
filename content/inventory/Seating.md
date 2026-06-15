@@ -2,7 +2,7 @@
 title = "Club Seating"
 date = 2025-06-12T04:00:00.000Z
 description = "Red Club Chairs, Qty - 6 Available @ $75/ea."
-images = [ "", "/images/Red Swivel Chair.jpg" ]
+images = [ "/images/Red Swivel Chair.jpg" ]
 video = ""
 +++
 
